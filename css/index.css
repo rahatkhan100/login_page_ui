@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.ship{
+    background-image: url(../img/LoginPage.jpg);
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 190px;
+    width: 310px;
+    padding-top: 7%;
+}
+
+
+.card{
+    height: 460px;
+    width: 390px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    text-align: center;
+}
+
+
+
+.card h3{
+    padding-top: 5%;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.card p{
+    padding-top: 4%;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #8E8383;
+    font-weight: 300;
+} 
+
+.card p span{
+    color: #2C89DF;
+}
+
+
+.icons img{
+ 
+    width: 40%;
+height: 45px;
+
+}
+
+
+
+.dt1{
+    width: 155px;
+    margin-top: 8%;
+    position: relative;
+    top: 3%;
+    border: 1px solid #9993934d;
+}
+
+.or{
+  position: relative;
+  padding-left: -55px;
+  font-family: 'Inter', sans-serif;
+  color: #999393;
+
+
+}
+
+.dt2{
+    width: 157px;
+    margin-top: -10px;
+    margin-left: 59%;
+    border: 1px solid #9993934d;
+
+}
+
+
+.form{
+    margin-top: 8%;
+}
+
+.form input{
+    width: 280px;
+    height: 37px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid #8F8C8C;
+    padding: 0 50px;
+}
+
+.form i{
+    position: absolute;
+      padding-top: 10px;
+      padding-left: 24px;
+      color: #8F8C8C;
+}
+
+
+.btn1{
+    margin-top: 8%;
+    padding: 12px 115px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+    background-color: #FAC233;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+
+
+.btn1:hover{
+box-shadow: 0 0 30px 7px #00ff62a9;
+background-color: #000000;
+
+  
+}
+
+.copy{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.icons{
+    display: flex;
+}
+
+.fb{
+    height: 40px;
+    width: 165px;
+    background-color: #1A7EDB;
+    margin-left: 20px;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.fb:hover{
+    box-shadow: 0 0 20px 7px #0084ff7a;
+    
+}
+
+.fb img{
+    height: 30px;
+    width: 30px;
+    margin-left: -85px;
+    margin-top: 4px;
+}
+
+.fb span{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.ggl{
+    height: 42px;
+    width: 165px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+    border: 1px solid #22222262;
+    cursor: pointer;
+    transition:0.5s ;
+    -webkit-transition:0.5s ;
+    -moz-transition:0.5s ;
+    -ms-transition:0.5s ;
+    -o-transition:0.5s ;
+}
+
+.ggl:hover{
+ box-shadow: 0 0 20px 10px #fac23370;
+}
+
+
+
+
+.ggl img{
+    height: 30px;
+    width: 30px;
+    margin-left: -85px;
+    margin-top: 4px;
+}
+
+
+
+.ggl span{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
